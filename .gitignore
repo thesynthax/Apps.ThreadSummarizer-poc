@@ -9,6 +9,8 @@ out/
 .idea/
 .idea_modules/
 
+.rcappsconfig
+
 # macOS
 .DS_Store
 .AppleDouble
