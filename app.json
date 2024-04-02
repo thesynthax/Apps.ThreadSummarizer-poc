@@ -1,0 +1,54 @@
+{
+    "id": "f3cb440a-04c1-4303-affa-74c796305c76",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "thesynthax",
+        "homepage": "thesynthax.tech",
+        "support": "thesynthax.tech"
+    },
+    "name": "Apps.ThreadSummarizer-PoC",
+    "nameSlug": "appsthreadsummarizer-poc",
+    "classFile": "AppsThreadSummarizerPoCApp.ts",
+    "description": "A proof-of-concept app for GSoC proposal",
+    "implements": [],
+    "permissions": [
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "user.write"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "room.write"
+        },
+        {
+            "name": "message.read"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "api"
+        },
+        {
+            "name": "networking"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "ui.registerButtons"
+        },
+        {
+            "name": "threads.read"
+        }
+    ]
+}
